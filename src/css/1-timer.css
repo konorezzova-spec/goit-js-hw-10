@@ -4,6 +4,7 @@ body {
     background-color: #ffffff;
 }
 .input-date {
+    display: inline;
     width: 272px;
     height: 40px;
     font-size: 16px;
@@ -43,6 +44,7 @@ input:disabled {
 }
 
 .button-start {
+    display: inline;
     border-radius: 8px;
     padding: 8px 16px;
     width: 75px;
