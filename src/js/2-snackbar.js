@@ -11,9 +11,9 @@ form.addEventListener('submit', (event) => {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 if (state === 'fulfilled') {
-                    resolve(`Fulfilled promise in ${delay}ms`);
+                    resolve(delay);
                 } else {
-                    reject(`Rejected promise in ${delay}ms`);
+                    reject(delay);
                 }
             }, delay);
         });
@@ -24,7 +24,8 @@ form.addEventListener('submit', (event) => {
             theme: 'dark',
             // iconUrl: '../img/bi_check2-circle.svg',
             title: 'OK',
-            message: value,
+            message: `✅ Fulfilled promise in ${value}ms`
+,
             position: 'topRight',
             backgroundColor: '#59a10d',
         }))
@@ -32,7 +33,7 @@ form.addEventListener('submit', (event) => {
             theme: 'dark',
             // iconUrl: '../img/bi_x-octagon.svg',
             title: 'Error',
-            message: error,
+            message: `❌ Rejected promise in ${error}ms`,
             position: 'topRight',
             backgroundColor: '#ef4040',
         }));

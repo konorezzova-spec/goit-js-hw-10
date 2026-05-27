@@ -1,3 +1,6 @@
+@import url("flatpickr/dist/flatpickr.min.css");
+@import url("izitoast/dist/css/iziToast.min.css");
+
 body {
     font-family: 'Montserrat', sans-serif;
     color: #2E2F42;

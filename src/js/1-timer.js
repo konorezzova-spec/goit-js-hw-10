@@ -16,7 +16,7 @@ const options = {
         "firstDayOfWeek": 1 // start week on Monday
     },
     onClose(selectedDates) {
-        if (selectedDates[0] < new Date()) {
+        if (selectedDates[0] <= new Date()) {
             iziToast.show({
                 theme: 'dark',
                 // iconUrl: '../img/bi_x-octagon.svg',
