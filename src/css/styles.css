@@ -4,6 +4,11 @@
   | default @import url()
   |============================
 */
+
+/* Додатковий імпорт стилів */
+@import url("flatpickr/dist/flatpickr.min.css");
+@import url("izitoast/dist/css/iziToast.min.css");
+
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
@@ -16,6 +21,3 @@
 @import url('./1-timer.css');
 @import url('./2-snackbar.css');
 
-/* Додатковий імпорт стилів */
-@import url("flatpickr/dist/flatpickr.min.css");
-@import url("izitoast/dist/css/iziToast.min.css");
