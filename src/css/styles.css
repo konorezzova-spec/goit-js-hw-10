@@ -15,3 +15,7 @@
 @import url('./back-link.css');
 @import url('./1-timer.css');
 @import url('./2-snackbar.css');
+
+/* Додатковий імпорт стилів */
+@import url("flatpickr/dist/flatpickr.min.css");
+@import url("izitoast/dist/css/iziToast.min.css");
