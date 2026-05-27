@@ -22,7 +22,7 @@ form.addEventListener('submit', (event) => {
     createNotification({ delay, state })
         .then(value => iziToast.show({
             theme: 'dark',
-            iconUrl: '../img/bi_check2-circle.svg',
+            // iconUrl: '../img/bi_check2-circle.svg',
             title: 'OK',
             message: value,
             position: 'topRight',
@@ -30,7 +30,7 @@ form.addEventListener('submit', (event) => {
         }))
         .catch(error => iziToast.show({
             theme: 'dark',
-            iconUrl: '../img/bi_x-octagon.svg',
+            // iconUrl: '../img/bi_x-octagon.svg',
             title: 'Error',
             message: error,
             position: 'topRight',
