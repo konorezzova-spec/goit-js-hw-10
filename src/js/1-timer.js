@@ -19,7 +19,7 @@ const options = {
         if (selectedDates[0] < new Date()) {
             iziToast.show({
                 theme: 'dark',
-                iconUrl: 'img/bi_x-octagon.svg',
+                iconUrl: '../img/bi_x-octagon.svg',
                 title: 'Error',
                 message: "Please choose a date in the future",
                 position: "topRight",
